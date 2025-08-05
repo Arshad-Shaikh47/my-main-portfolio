@@ -343,7 +343,8 @@ export const Arsh = ({ typedText }) => {
                   </ul>
                 </div>
 
-                {/* <div>
+                <div>
+                  {/* <div>
                   <h3 className="resume-title">Education</h3>
 
                 <div className="resume-item">
@@ -372,6 +373,9 @@ export const Arsh = ({ typedText }) => {
                   </p>
                 </div>
               </div> */}
+                </div>
+
+                
               </div>
 
               {/* Right Column */}
