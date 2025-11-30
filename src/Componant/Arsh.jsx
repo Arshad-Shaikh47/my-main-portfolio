@@ -15,6 +15,10 @@ const skills = [
   { name: "CSS", value: 85 },
   { name: "JavaScript", value: 75 },
   { name: "Bootstrap", value: 80 }, 
+  { name: "react.js", value: 90 }, 
+  { name: "express.js", value: 75 }, 
+  { name: "node.js", value: 70 }, 
+  { name: "mongoDB", value: 70 }, 
 ];
 
 const NavIcon = () => {
@@ -78,7 +82,7 @@ export const Arsh = ({ typedText }) => {
           <div className="social-links">
             <a
               className="social-a"
-              href="https://www.instagram.com/__arshad__s12?igsh=YWJzMDhpcTNtaHpv&utm_source=qr"
+              href="https://www.instagram.com/__arshad__s1417?igsh=YWJzMDhpcTNtaHpv&utm_source=qr"
             >
               <FaInstagram />
             </a>
