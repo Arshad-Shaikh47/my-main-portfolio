@@ -80,12 +80,12 @@ export const Arsh = ({ typedText }) => {
             <h1 className="nav-h1">Arshad Shaikh</h1>
           </div>
           <div className="social-links">
-            <a
+            <Link 
               className="social-a"
               href="https://www.instagram.com/__arshad__s1417?igsh=YWJzMDhpcTNtaHpv&utm_source=qr"
             >
               <FaInstagram />
-            </a>
+            </Link>
             <a className="social-a" href="#">
               <FaFacebook />
             </a>
@@ -106,7 +106,7 @@ export const Arsh = ({ typedText }) => {
                 spy={true}
                 smooth={true}
                 offset={-50}
-                duration={500}
+                duration={900}
                 className="navi"
               >
                 <HiOutlineHome className="navicon" /> Home
@@ -118,7 +118,7 @@ export const Arsh = ({ typedText }) => {
                 spy={true}
                 smooth={true}
                 offset={-50}
-                duration={500}
+                duration={900}
                 className="navi"
               >
                 <IoPersonOutline className="navicon" /> About
@@ -130,7 +130,7 @@ export const Arsh = ({ typedText }) => {
                 spy={true}
                 smooth={true}
                 offset={-50}
-                duration={500}
+                duration={900}
                 className="navi"
               >
                 <MdEmojiObjects className="navicon" /> Skills
@@ -142,7 +142,7 @@ export const Arsh = ({ typedText }) => {
                 spy={true}
                 smooth={true}
                 offset={-50}
-                duration={500}
+                duration={900}
                 className="navi"
               >
                 <BsFileEarmarkText className="navicon" /> Resume
@@ -154,7 +154,7 @@ export const Arsh = ({ typedText }) => {
                 spy={true}
                 smooth={true}
                 offset={-50}
-                duration={500}
+                duration={900}
                 className="navi"
               >
                 <CiMail className="navicon" /> Contact
@@ -166,7 +166,8 @@ export const Arsh = ({ typedText }) => {
        
       </div>
       <div className="main">
-        {/* hero section starting */}
+    
+        {/*======================================== hero section starting ============================================== */}
 
         <section id="hero" className="hero">
           <img src={heroimg} alt="" />
@@ -182,7 +183,8 @@ export const Arsh = ({ typedText }) => {
           </div>
         </section>
 
-        {/* hero section end here */}
+       
+         {/*======================================== hero section end here ============================================== */}
 
         <section id="about" className="about section">
           {/* Section Title */}
@@ -205,7 +207,7 @@ export const Arsh = ({ typedText }) => {
                 <p className="fst-italic py-3">
                   Hi, I’m Arshad Shaikh a Full-Stack Developer based in Nashik.
                   <br /> I build responsive, user-friendly websites using HTML,
-                  CSS, JavaScript, React.js, and Bootstrap. I enjoy turning
+                  CSS, JavaScript, React.js,Bootstrap node.js ,express.js and mongoDB. I enjoy turning
                   ideas into real, functional products with clean design and
                   solid performance. Currently, I’m expanding my skills by
                   diving into back-end development.
@@ -265,6 +267,7 @@ export const Arsh = ({ typedText }) => {
             </div>
           </div>
         </section>
+           {/*======================================== skills ============================================== */}
 
         <section id="skills" className=" skills-section">
           <div className="section-title">
@@ -292,24 +295,29 @@ export const Arsh = ({ typedText }) => {
             ))}
           </div>
         </section>
+        {/*======================================== skills ============================================== */}
+
 
         <section id="resume" className="resume section">
-          {/* Section Title */}
+         
+           {/*======================================== Section Title ============================================== */}
           <div className="container section-title " data-aos="fade-up">
             <h2>Resume</h2>
             <p>
               Full-stack Developer based in Nashik with a strong focus on
               building clean, responsive, and user-friendly websites. Skilled in
-              HTML, CSS, JavaScript, React.js, and Bootstrap. Passionate about
+              HTML, CSS, JavaScript, React.js, Bootstrap node.js ,express.js and mongoDB. Passionate about
               turning ideas into functional digital experiences. Currently
               expanding knowledge in back-end development to become a full-stack
               developer.
             </p>
           </div>
+           {/*======================================== Section Title ============================================== */}
 
           <div className="container resume-main">
             <div className="row">
-              {/* Left Column */}
+
+               {/*======================================== Left Column ============================================== */}
               <div
                 className="col-lg-6 left-column"
                 data-aos="fade-up"
@@ -323,7 +331,7 @@ export const Arsh = ({ typedText }) => {
                       I’m a full-stack developer who cares about the details and
                       loves building responsive, user-friendly web apps. I’ve
                       worked with tools like HTML, CSS, JavaScript, React.js,
-                      and Bootstrap, and I’m currently getting into back-end
+                      Bootstrap node.js ,express.js and mongoDB , and I’m currently getting into back-end
                       development with Node.js and Express.
                     </em>
                   </p>
@@ -381,8 +389,10 @@ export const Arsh = ({ typedText }) => {
 
                 
               </div>
-
-              {/* Right Column */}
+               {/*======================================== Left Column ============================================== */}
+ 
+            
+               {/*======================================== Right Column============================================== */}
               <div
                 className="right-column"
                 data-aos="fade-up"
@@ -416,6 +426,7 @@ export const Arsh = ({ typedText }) => {
                   </p>
                 </div>
               </div>
+               {/*======================================== Right Column============================================== */}
             </div>
           </div>
         </section>
@@ -493,7 +504,7 @@ export const Arsh = ({ typedText }) => {
         </div>
       </div>
 
-      {/* footer */}
+      {/*======================================== footer============================================== */}
 
    <footer id="footer" className="footer position-relative light-background">
       <div className="footer-p">
@@ -504,6 +515,7 @@ export const Arsh = ({ typedText }) => {
         </div>
       </div>
     </footer>
+     {/*======================================== footer============================================== */}
     </>
   );
 };
